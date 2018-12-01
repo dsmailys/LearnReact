@@ -20,7 +20,6 @@ namespace ImdbDataRefresher
 
                 if (count == 0)
                     loadData ();
-                    Console.WriteLine("Test");
             }
         }
 
