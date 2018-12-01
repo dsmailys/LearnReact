@@ -8,8 +8,6 @@ namespace imdbApi
     {
         public static void Main(string[] args)
         {
-            var dataRefresher = new DataLoader ();
-            dataRefresher.LoadImdbBasicsData ();
             CreateWebHostBuilder(args).Build().Run();
         }
 

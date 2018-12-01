@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace ImdbDataRefresher.Models
 {
-    public class Movie
+    public class Movie : DataModelBase
     {
-        public string Id {get;set;}
+        public override string Id { get; set; }
         public string TitleType { get; set; }
         public string PrimaryTitle { get; set; }
         public string OriginalTitle { get; set; }
